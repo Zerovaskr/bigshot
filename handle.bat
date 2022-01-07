@@ -25,7 +25,11 @@ timeout /nobreak 7
 goto a
 
 :change2
-if %count2% gtr 24 exit
+if %count2% gtr 24 done
 start %homedrive%%homepath%\bigshot\change2.vbs
 set /a count2=%count2%+1
 goto change2
+
+:done
+start %homedrive%%homepath%\finish.bat
+exit
