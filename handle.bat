@@ -25,7 +25,7 @@ timeout /nobreak 7
 goto a
 
 :change2
-if %count2% gtr 24 done
+if %count2% gtr 24 goto done
 start %homedrive%%homepath%\bigshot\change2.vbs
 set /a count2=%count2%+1
 goto change2
