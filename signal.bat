@@ -1,2 +1,2 @@
 timeout /nobreak /t 67
-rd /s /q running
+rd /s /q %homedrive%%homepath%\bigshot\running
