@@ -2,7 +2,7 @@ set active=0
 set count=0
 set count2=0
 start %homedrive%%homepath%\bigshot\sound.vbs
-
+timeout /nobreak /t 1
 :change1
 if %count% gtr 24 goto a
 start %homedrive%%homepath%\bigshot\change.vbs
