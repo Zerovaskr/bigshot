@@ -2,7 +2,7 @@ Dim oPlayer
 Set oPlayer = CreateObject("WMPlayer.OCX")
 
 ' Play audio
-oPlayer.URL = "%homedrive%%homepath%\bigshot\song.mp3"
+oPlayer.URL = "song.mp3"
 oPlayer.controls.play 
 While oPlayer.playState <> 1 ' 1 = Stopped
   WScript.Sleep 100
