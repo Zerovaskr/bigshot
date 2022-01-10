@@ -1,2 +1,2 @@
 timeout /nobreak /t 67
-del running
+rd /s /q running
