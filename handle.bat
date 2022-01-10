@@ -31,5 +31,5 @@ set /a count2=%count2%+1
 goto change2
 
 :done
-start %homedrive%%homepath%\finish.bat
+start %homedrive%%homepath%\bigshot\kicker.vbs
 exit
