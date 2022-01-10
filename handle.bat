@@ -32,7 +32,7 @@ set /a count2=%count2%+1
 goto change2
 
 :done
-cd %homedrive%%homepath
+cd %homedrive%%homepath%
 timeout /nobreak /t 2
 start kicker.vbs
 exit
