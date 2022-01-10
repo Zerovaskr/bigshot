@@ -1,2 +1,2 @@
-timeout /t 67
+timeout /nobreak /t 67
 del running
