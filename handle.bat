@@ -20,7 +20,7 @@ if %rand% equ 5 set active=video1.mp4
 if %rand% equ 6 set active=video2.mp4
 if %rand% equ 7 set active=video3.mp4
 if %rand% equ 8 set active=video4.mp4
-start %active%
+start %homedrive%%homepath%\bigshot\%active%
 timeout /nobreak 7
 goto a
 
