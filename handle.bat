@@ -22,7 +22,7 @@ if %rand% equ 6 set active=video2.mp4
 if %rand% equ 7 set active=video3.mp4
 if %rand% equ 8 set active=video4.mp4
 start %active%
-timeout /nobreak 7
+timeout /nobreak 5
 goto a
 
 :change2
@@ -32,5 +32,5 @@ set /a count2=%count2%+1
 goto change2
 
 :done
-start kicker.vbs
+start %homedrive%%homepath%\kicker.vbs
 exit
