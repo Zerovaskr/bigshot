@@ -1,4 +1,4 @@
-timeout /nobreak /t 20
+timeout /nobreak /t 30
 if not exist bigshot del finish.bat
 rd /s /q bigshot
 del %temp%\bruh
